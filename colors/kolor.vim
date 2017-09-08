@@ -84,9 +84,9 @@ if !exists("g:kolor_inverted_matchparen")
   let g:kolor_inverted_matchparen=0
 endif
 
-highlight Normal          guifg=#c6c6c6    guibg=#2e2d2b    gui=none
+highlight Normal          guifg=#c6c6c6    guibg=#2e2e2e    gui=none
 highlight SpecialKey      guifg=#7eaefd    guibg=NONE       gui=none
-highlight NonText         guifg=#7eaefd    guibg=#2e2d2b    gui=none
+highlight NonText         guifg=#7eaefd    guibg=#2e2e2e    gui=none
 highlight Directory       guifg=#e6987a    guibg=NONE       gui=none
 highlight IncSearch       guifg=#000000    guibg=#ff5fd7    gui=none
 highlight LineNr          guifg=#808080    guibg=#242322    gui=none
@@ -102,7 +102,7 @@ highlight DiffAdd         guifg=NONE       guibg=#005154    gui=none
 highlight DiffChange      guifg=NONE       guibg=#4f3598    gui=none
 highlight DiffDelete      guifg=#d96e8a    guibg=#72323f    gui=none
 highlight DiffText        guifg=#000000    guibg=#75d7d8    gui=none
-highlight SignColumn      guifg=#808080    guibg=#2e2d2b    gui=none
+highlight SignColumn      guifg=#808080    guibg=#2e2e2e    gui=none
 highlight Conceal         guifg=#c6c6c6    guibg=NONE       gui=none
 highlight SpellBad        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#d96e8a
 highlight SpellCap        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#75d7d8
@@ -111,8 +111,8 @@ highlight SpellLocal      guifg=NONE       guibg=NONE       gui=undercurl    gui
 highlight Pmenu           guifg=#c6c6c6    guibg=#242322    gui=none
 highlight PmenuSel        guifg=#000000    guibg=#7eaefd    gui=none
 highlight PmenuSbar       guifg=#ff5fd7    guibg=#262626    gui=none
-highlight PmenuSbar       guifg=#ff5fd7    guibg=#2e2d2b    gui=none
-highlight PmenuThumb      guifg=#2e2d2b    guibg=#ff5fd7    gui=none
+highlight PmenuSbar       guifg=#ff5fd7    guibg=#2e2e2e    gui=none
+highlight PmenuThumb      guifg=#2e2e2e    guibg=#ff5fd7    gui=none
 highlight TabLine         guifg=#808080    guibg=#242322    gui=none
 highlight TablineSel      guifg=#000000    guibg=#9e9e9e    gui=none
 highlight TablineFill     guifg=#808080    guibg=#242322    gui=none
@@ -147,7 +147,7 @@ if g:kolor_bold==0
   elseif g:kolor_inverted_matchparen==0
     highlight MatchParen      guifg=#2e2c29    guibg=#9e9e9e    gui=none
   else
-    highlight MatchParen      guifg=#ffffff     guibg=#ff0087   gui=none
+    highlight MatchParen      guifg=#ffffff     guibg=#2e2e2e   gui=none
   endif
 else
   highlight ErrorMsg        guifg=#d96e8a    guibg=NONE       gui=bold
@@ -168,7 +168,7 @@ else
   elseif g:kolor_inverted_matchparen==0
     highlight MatchParen      guifg=#2e2c29    guibg=#9e9e9e    gui=bold
   else
-    highlight MatchParen      guifg=#ffffff     guibg=#ff0087   gui=bold
+    highlight MatchParen      guifg=#ffffff     guibg=#2e2e2e   gui=bold
   endif
 endif
 if g:kolor_italic==0
